@@ -9,11 +9,11 @@ gem 'rails', '4.2.4'
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
-  gem 'rspec-rails'
 end
 
 group :test do
   gem 'selenium-webdriver'
+  gem 'rspec-rails'
   gem 'capybara'
 end
 
